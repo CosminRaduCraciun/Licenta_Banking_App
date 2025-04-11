@@ -14,15 +14,19 @@ public class DriverManager {
     private static WebDriverWait wait;
 
     public static void createDriver() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, Duration.ofMillis(1000L));
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
+    System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+    WebDriverManager.chromedriver().setup();
+    
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments("--user-data-dir=/tmp/chrome-" + System.currentTimeMillis());
+    
+    driver = new ChromeDriver(options);
+    driver.manage().window().maximize();
+    wait = new WebDriverWait(driver, Duration.ofMillis(1000L));
+    driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
 
-        System.out.println("Driver in Before: " + driver);
-    }
+    System.out.println("Driver in Before: " + driver);
+}
 
     public static void destroyDriver() {
         if (driver != null) {
