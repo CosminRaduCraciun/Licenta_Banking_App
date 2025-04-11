@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="108.098" tests="14" skipped="0" failures="0" errors="0">
+<testcase classname="Add a new customer" name="The user adds a new customer without filling First Name field - Example #1.1" time="8.416">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "".........................................passed
+And The user writes 'last name' "Craciun"...................................passed
+And The user writes 'post code' "E23564"....................................passed
+And The user clicks on submit add customer button...........................passed
+Then The user gets the alert banner in field First Name "Please fill out this field.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Add a new customer" name="The user adds a new customer without filling Last Name field - Example #1.1" time="7.115">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "Cosmin"...................................passed
+And The user writes 'last name' ""..........................................passed
+And The user writes 'post code' "E23564"....................................passed
+And The user clicks on submit add customer button...........................passed
+Then The user gets the alert banner in field Last Name "Please fill out this field.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Add a new customer" name="The user adds a new customer without filling Post Code field - Example #1.1" time="6.93">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "Cosmin"...................................passed
+And The user writes 'last name' "Craciun"...................................passed
+And The user writes 'post code' ""..........................................passed
+And The user clicks on submit add customer button...........................passed
+Then The user gets the alert banner in field Post Code "Please fill out this field.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Add a new customer" name="The user enters invalid name made by numbers - Example #1.1" time="6.928">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "123"......................................passed
+And The user writes 'last name' "456".......................................passed
+And The user writes 'post code' "E4567".....................................passed
+And The user clicks on submit add customer button...........................passed
+Then The user gets a pop-up error message "Customer added successfully with customer id".passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature contains all CustomerLoginPage test" name="The user can successfully make a deposit" time="7.189">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+And The user clicks on 'Customer Login' button..............................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks the Login button........................................passed
+And The user checks their current balance...................................passed
+And The user clicks on Deposit tab..........................................passed
+And The user enters the amount of money for deposit "20"....................passed
+And The user clicks on Deposit button.......................................passed
+Then The deposit success message is displayed...............................passed
+And The user's balance after deposit is updated correctly...................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature contains all CustomerLoginPage test" name="The user can successfully make a withdraw" time="6.945">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+And The user clicks on 'Customer Login' button..............................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks the Login button........................................passed
+And The user checks their current balance...................................passed
+When The user clicks on Withdraw tab........................................passed
+And The user enters the amount of money for withdraw "15"...................passed
+And The user clicks on Withdraw button......................................passed
+Then The withdraw success message is displayed..............................passed
+And The user's balance after withdraw is updated correctly..................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature contains all CustomerLoginPage test" name="The user tries to withdraw more than the balance" time="7.165">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+And The user clicks on 'Customer Login' button..............................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks the Login button........................................passed
+And The user checks their current balance...................................passed
+When The user clicks on Withdraw tab........................................passed
+And The user enters the amount of money for withdraw "6000".................passed
+And The user clicks on Withdraw button......................................passed
+Then Withdraw error message is displayed....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new customer and open new accounts" name="The user can successfully create new customer - Example #1.1" time="15.114">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "Cosmin"...................................passed
+And The user writes 'last name' "Craciun"...................................passed
+And The user writes 'post code' "E452346"...................................passed
+And The user clicks on submit add customer button...........................passed
+And The user gets the alert banner and clicks ok............................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user clicks on name.................................................passed
+And The user clicks on 'Currency' dropdown..................................passed
+And The user selects the currency "Dollar"..................................passed
+And The user clicks on 'Process' button.....................................passed
+And The user clicks on the Ok button from the alert.........................passed
+And The user clicks on the 'Customers' button...............................passed
+And The user searches name "Cosmin".........................................passed
+Then The user checks if customer in list....................................passed
+And The user clicks on 'Home' button........................................passed
+And The user clicks on 'Customer Login' button..............................passed
+And The user selects the username...........................................passed
+And The user clicks the Login button........................................passed
+Then The user gets the message Welcome <name>...............................passed
+And The user checks their current balance...................................passed
+And The user clicks on Deposit tab..........................................passed
+And The user enters the amount of money for deposit "15"....................passed
+And The user clicks on Deposit button.......................................passed
+Then The deposit success message is displayed...............................passed
+And The user's balance after deposit is updated correctly...................passed
+When The user clicks on the Transactions tab................................passed
+And The user clicks on the Date-time sorting button.........................passed
+Then The user checks if the first amount is the same as the one typed before "15".passed
+And The user checks if the Transaction type is correct "Credit".............passed
+When The user clicks on the 'Back' button...................................passed
+When The user clicks on Withdraw tab........................................passed
+And The user enters the amount of money for withdraw "4"....................passed
+And The user clicks on Withdraw button......................................passed
+Then The withdraw success message is displayed..............................passed
+And The user's balance after withdraw is updated correctly..................passed
+Then The user checks if the first amount is the same as the one typed before "4".passed
+And The user checks if the Transaction type is correct "Debit"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete a customer" name="Delete an existing customer" time="6.241">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Customers' button...............................passed
+And The user uses the search bar to find the name "Hermoine"................passed
+When The user clicks on the delete button...................................passed
+Then The user cannot see the deleted name on the page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new account" name="The user adds a new  account for existing customer - Example #1.1" time="8.047">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks on 'Currency' dropdown..................................passed
+When The user selects the currency 'Dollar'.................................passed
+And The user clicks on 'Process' button.....................................passed
+When The user takes the account number from the pop-up banner...............passed
+And The user clicks on the Ok button from the alert.........................passed
+And The user clicks on the 'Customers' button...............................passed
+When The user searches name "Hermoine"......................................passed
+Then The new account created is in Account Numbers..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new account" name="The user adds a new  account for existing customer - Example #1.2" time="7.386">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks on 'Currency' dropdown..................................passed
+When The user selects the currency 'Pound'..................................passed
+And The user clicks on 'Process' button.....................................passed
+When The user takes the account number from the pop-up banner...............passed
+And The user clicks on the Ok button from the alert.........................passed
+And The user clicks on the 'Customers' button...............................passed
+When The user searches name "Hermoine"......................................passed
+Then The new account created is in Account Numbers..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new account" name="The user adds a new  account for existing customer - Example #1.3" time="6.911">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks on 'Currency' dropdown..................................passed
+When The user selects the currency 'Rupee'..................................passed
+And The user clicks on 'Process' button.....................................passed
+When The user takes the account number from the pop-up banner...............passed
+And The user clicks on the Ok button from the alert.........................passed
+And The user clicks on the 'Customers' button...............................passed
+When The user searches name "Hermoine"......................................passed
+Then The new account created is in Account Numbers..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new account" name="The user adds a new account without selecting a customer name - Example #1.1" time="6.609">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user clicks on 'Currency' dropdown..................................passed
+When The user selects the currency 'Dollar'.................................passed
+And The user clicks on 'Process' button.....................................passed
+Then The user gets an alert on 'Customer Name' field "Please select an item in the list.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new account" name="The user adds a new account without selecting a currency - Example #1.1" time="6.707">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user selects first customer in list.................................passed
+And The user clicks on 'Process' button.....................................passed
+Then The user gets an alert on 'Currency' field "Please select an item in the list.".passed
+]]></system-out>
+</testcase>
+</testsuite>
