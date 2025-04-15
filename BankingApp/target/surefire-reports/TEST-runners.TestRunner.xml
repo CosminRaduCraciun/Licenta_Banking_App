@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="108.345" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="18.483" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\Radu.Craciun\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Radu.Craciun\.cache\selenium\chromedriver\win64\135.0.7049.84\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Radu.Craciun\IdeaProjects\BankingApp -Backup\target\test-classes;C:\Users\Radu.Craciun\IdeaProjects\BankingApp -Backup\target\classes;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Radu.Craciun\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\Users\Radu.Craciun\.m2\repository\commons-io\commons-io\2.17.0\commons-io-2.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Radu.Craciun\IdeaProjects\Licenta_Banking_App\BankingApp\target\test-classes;C:\Users\Radu.Craciun\IdeaProjects\Licenta_Banking_App\BankingApp\target\classes;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Radu.Craciun\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\Users\Radu.Craciun\.m2\repository\commons-io\commons-io\2.17.0\commons-io-2.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Radu.Craciun\.jdks\corretto-21.0.6\bin"/>
-    <property name="sun.java.command" value="C:\Users\Radu.Craciun\AppData\Local\Temp\surefire3378674181860695214\surefirebooter-20250411144858013_3.jar C:\Users\Radu.Craciun\AppData\Local\Temp\surefire3378674181860695214 2025-04-11T14-48-57_668-jvmRun1 surefire-20250411144858013_1tmp surefire_0-20250411144858013_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Radu.Craciun\AppData\Local\Temp\surefire9196460062911337651\surefirebooter-20250415122505012_3.jar C:\Users\Radu.Craciun\AppData\Local\Temp\surefire9196460062911337651 2025-04-15T12-25-04_824-jvmRun1 surefire-20250415122505012_1tmp surefire_0-20250415122505012_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Radu.Craciun\IdeaProjects\BankingApp -Backup\target\test-classes;C:\Users\Radu.Craciun\IdeaProjects\BankingApp -Backup\target\classes;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Radu.Craciun\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\Users\Radu.Craciun\.m2\repository\commons-io\commons-io\2.17.0\commons-io-2.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Radu.Craciun\IdeaProjects\Licenta_Banking_App\BankingApp\target\test-classes;C:\Users\Radu.Craciun\IdeaProjects\Licenta_Banking_App\BankingApp\target\classes;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Radu.Craciun\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Radu.Craciun\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Radu.Craciun\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\Radu.Craciun\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\Users\Radu.Craciun\.m2\repository\commons-io\commons-io\2.17.0\commons-io-2.17.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\Radu.Craciun\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Radu.Craciun\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Radu.Craciun\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Radu.Craciun\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Radu.Craciun\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Radu.Craciun"/>
     <property name="user.language" value="en"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="C:\Users\Radu.Craciun\.jdks\corretto-21.0.6"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Radu.Craciun\IdeaProjects\BankingApp -Backup"/>
+    <property name="basedir" value="C:\Users\Radu.Craciun\IdeaProjects\Licenta_Banking_App\BankingApp"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Radu.Craciun\AppData\Local\Temp\surefire3378674181860695214\surefirebooter-20250411144858013_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Radu.Craciun\AppData\Local\Temp\surefire9196460062911337651\surefirebooter-20250415122505012_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
     <property name="java.io.tmpdir" value="C:\Users\RADU~1.CRA\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.6"/>
-    <property name="user.dir" value="C:\Users\Radu.Craciun\IdeaProjects\BankingApp -Backup"/>
+    <property name="user.dir" value="C:\Users\Radu.Craciun\IdeaProjects\Licenta_Banking_App\BankingApp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,19 +60,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="The user adds a new customer without filling First Name field" classname="Add a new customer" time="8.551">
+  <testcase name="The user adds a new customer without filling First Name field" classname="Add a new customer" time="11.732">
     <system-out><![CDATA[
 Scenario Outline: The user adds a new customer without filling First Name field         # src/test/resources/features/AddCustomer.feature:16
 Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
+Driver in Before: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
   Given The user accesses the main page                                                 # stepDefinition.IntegrationTestSteps.goTo()
   When The user clicks on the 'Bank Manager Login' button                               # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
   And The user clicks on the 'Add Customer' button                                      # stepDefinition.IntegrationTestSteps.clickAddCustomerButton()
@@ -80,30 +80,30 @@ Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62
   And The user writes 'last name' "Craciun"                                             # stepDefinition.IntegrationTestSteps.writeLastName(java.lang.String)
   And The user writes 'post code' "E23564"                                              # stepDefinition.IntegrationTestSteps.writePostCode(java.lang.String)
   And The user clicks on submit add customer button                                     # stepDefinition.IntegrationTestSteps.clickSubmitAddCustomerButton()
-Driver in getDriver: ChromeDriver: chrome on windows (5fadec52edd9f3cbaae2dddc62c48032)
+Driver in getDriver: ChromeDriver: chrome on windows (367c6032e1745e68af2f9524de0362f7)
   Then The user gets the alert banner in field First Name "Please fill out this field." # stepDefinition.AddCustomerSteps.getAlertFName(java.lang.String)
 Closing WebDriver...
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Apr 11, 2025 2:49:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Apr 15, 2025 12:25:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="The user adds a new customer without filling Last Name field" classname="Add a new customer" time="7.13">
+  <testcase name="The user adds a new customer without filling Last Name field" classname="Add a new customer" time="6.47">
     <system-out><![CDATA[
 Scenario Outline: The user adds a new customer without filling Last Name field         # src/test/resources/features/AddCustomer.feature:26
 Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
+Driver in Before: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
   Given The user accesses the main page                                                # stepDefinition.IntegrationTestSteps.goTo()
   When The user clicks on the 'Bank Manager Login' button                              # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
   And The user clicks on the 'Add Customer' button                                     # stepDefinition.IntegrationTestSteps.clickAddCustomerButton()
@@ -111,438 +111,12 @@ Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daf
   And The user writes 'last name' ""                                                   # stepDefinition.IntegrationTestSteps.writeLastName(java.lang.String)
   And The user writes 'post code' "E23564"                                             # stepDefinition.IntegrationTestSteps.writePostCode(java.lang.String)
   And The user clicks on submit add customer button                                    # stepDefinition.IntegrationTestSteps.clickSubmitAddCustomerButton()
-Driver in getDriver: ChromeDriver: chrome on windows (c8c80ab622dad58be4f0925daff6948b)
+Driver in getDriver: ChromeDriver: chrome on windows (db3625d87857feee8159e871d90d6dec)
   Then The user gets the alert banner in field Last Name "Please fill out this field." # stepDefinition.AddCustomerSteps.getAlertLName(java.lang.String)
 Closing WebDriver...
 ]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user adds a new customer without filling Post Code field" classname="Add a new customer" time="6.947">
-    <system-out><![CDATA[
-Scenario Outline: The user adds a new customer without filling Post Code field         # src/test/resources/features/AddCustomer.feature:36
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-  Given The user accesses the main page                                                # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button                              # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on the 'Add Customer' button                                     # stepDefinition.IntegrationTestSteps.clickAddCustomerButton()
-  And The user writes 'first name' "Cosmin"                                            # stepDefinition.IntegrationTestSteps.writeFirstName(java.lang.String)
-  And The user writes 'last name' "Craciun"                                            # stepDefinition.IntegrationTestSteps.writeLastName(java.lang.String)
-  And The user writes 'post code' ""                                                   # stepDefinition.IntegrationTestSteps.writePostCode(java.lang.String)
-  And The user clicks on submit add customer button                                    # stepDefinition.IntegrationTestSteps.clickSubmitAddCustomerButton()
-Driver in getDriver: ChromeDriver: chrome on windows (b7b53bdb3c1755e82f8beb3d32864b59)
-  Then The user gets the alert banner in field Post Code "Please fill out this field." # stepDefinition.AddCustomerSteps.getAlertPostCode(java.lang.String)
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user enters invalid name made by numbers" classname="Add a new customer" time="6.939">
-    <system-out><![CDATA[
-Scenario Outline: The user enters invalid name made by numbers                             # src/test/resources/features/AddCustomer.feature:46
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-  Given The user accesses the main page                                                    # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button                                  # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on the 'Add Customer' button                                         # stepDefinition.IntegrationTestSteps.clickAddCustomerButton()
-  And The user writes 'first name' "123"                                                   # stepDefinition.IntegrationTestSteps.writeFirstName(java.lang.String)
-  And The user writes 'last name' "456"                                                    # stepDefinition.IntegrationTestSteps.writeLastName(java.lang.String)
-  And The user writes 'post code' "E4567"                                                  # stepDefinition.IntegrationTestSteps.writePostCode(java.lang.String)
-  And The user clicks on submit add customer button                                        # stepDefinition.IntegrationTestSteps.clickSubmitAddCustomerButton()
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-Driver in getDriver: ChromeDriver: chrome on windows (8416a7807f35fed50a46a37ae9aae384)
-  Then The user gets a pop-up error message "Customer added successfully with customer id" # stepDefinition.AddCustomerSteps.getErrorMessage(java.lang.String)
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user can successfully make a deposit" classname="This feature contains all CustomerLoginPage test" time="7.196">
-    <system-out><![CDATA[
-Scenario: The user can successfully make a deposit          # src/test/resources/features/CustomerTransactions.feature:8
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-  Given The user accesses the main page                     # stepDefinition.IntegrationTestSteps.goTo()
-  And The user clicks on 'Customer Login' button            # stepDefinition.IntegrationTestSteps.clickCutomerLoginButton()
-  And The user clicks on 'Customer Name' dropdown           # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-  And The user selects first customer in list               # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-  And The user clicks the Login button                      # stepDefinition.IntegrationTestSteps.clickLoginButton()
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-Driver in getDriver: ChromeDriver: chrome on windows (21f4dccadb723587323c97f336bb5ee9)
-  And The user checks their current balance                 # stepDefinition.CustomerTransactionsSteps.checkCurrentBalance()
-  And The user clicks on Deposit tab                        # stepDefinition.CustomerTransactionsSteps.userClicksDepositTab()
-  And The user enters the amount of money for deposit "20"  # stepDefinition.CustomerTransactionsSteps.enterDepositAmount(java.lang.String)
-  And The user clicks on Deposit button                     # stepDefinition.CustomerTransactionsSteps.userClickDepositButton()
-  Then The deposit success message is displayed             # stepDefinition.CustomerTransactionsSteps.verifyDepositSuccessMessage()
-  And The user's balance after deposit is updated correctly # stepDefinition.CustomerTransactionsSteps.verifyUpdatedBalanceAfterDeposit()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user can successfully make a withdraw" classname="This feature contains all CustomerLoginPage test" time="6.955">
-    <system-out><![CDATA[
-Scenario: The user can successfully make a withdraw          # src/test/resources/features/CustomerTransactions.feature:18
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-  Given The user accesses the main page                      # stepDefinition.IntegrationTestSteps.goTo()
-  And The user clicks on 'Customer Login' button             # stepDefinition.IntegrationTestSteps.clickCutomerLoginButton()
-  And The user clicks on 'Customer Name' dropdown            # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-  And The user selects first customer in list                # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-  And The user clicks the Login button                       # stepDefinition.IntegrationTestSteps.clickLoginButton()
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-Driver in getDriver: ChromeDriver: chrome on windows (e532bf39b7e09597006bb47c66f33e58)
-  And The user checks their current balance                  # stepDefinition.CustomerTransactionsSteps.checkCurrentBalance()
-  When The user clicks on Withdraw tab                       # stepDefinition.CustomerTransactionsSteps.userClicksWithdrawTab()
-  And The user enters the amount of money for withdraw "15"  # stepDefinition.CustomerTransactionsSteps.enterWithdrawAmount(java.lang.String)
-  And The user clicks on Withdraw button                     # stepDefinition.CustomerTransactionsSteps.userClickWithdrawButton()
-  Then The withdraw success message is displayed             # stepDefinition.CustomerTransactionsSteps.verifyWithdrawSuccessMessage()
-  And The user's balance after withdraw is updated correctly # stepDefinition.CustomerTransactionsSteps.verifyUpdatedBalanceAfterWithdraw()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user tries to withdraw more than the balance" classname="This feature contains all CustomerLoginPage test" time="7.172">
-    <system-out><![CDATA[
-Scenario: The user tries to withdraw more than the balance    # src/test/resources/features/CustomerTransactions.feature:28
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-  Given The user accesses the main page                       # stepDefinition.IntegrationTestSteps.goTo()
-  And The user clicks on 'Customer Login' button              # stepDefinition.IntegrationTestSteps.clickCutomerLoginButton()
-  And The user clicks on 'Customer Name' dropdown             # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-  And The user selects first customer in list                 # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-  And The user clicks the Login button                        # stepDefinition.IntegrationTestSteps.clickLoginButton()
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-Driver in getDriver: ChromeDriver: chrome on windows (9004b5452397e2ab50122da1edc4fbdf)
-  And The user checks their current balance                   # stepDefinition.CustomerTransactionsSteps.checkCurrentBalance()
-  When The user clicks on Withdraw tab                        # stepDefinition.CustomerTransactionsSteps.userClicksWithdrawTab()
-  And The user enters the amount of money for withdraw "6000" # stepDefinition.CustomerTransactionsSteps.enterWithdrawAmount(java.lang.String)
-  And The user clicks on Withdraw button                      # stepDefinition.CustomerTransactionsSteps.userClickWithdrawButton()
-  Then Withdraw error message is displayed                    # stepDefinition.CustomerTransactionsSteps.verifyErrorMessage()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user can successfully create new customer" classname="Create new customer and open new accounts" time="15.125">
-    <system-out><![CDATA[
-Scenario Outline: The user can successfully create new customer                     # src/test/resources/features/IntegrationTest.feature:52
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-  Given The user accesses the main page                                             # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button                           # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on the 'Add Customer' button                                  # stepDefinition.IntegrationTestSteps.clickAddCustomerButton()
-  And The user writes 'first name' "Cosmin"                                         # stepDefinition.IntegrationTestSteps.writeFirstName(java.lang.String)
-  And The user writes 'last name' "Craciun"                                         # stepDefinition.IntegrationTestSteps.writeLastName(java.lang.String)
-  And The user writes 'post code' "E452346"                                         # stepDefinition.IntegrationTestSteps.writePostCode(java.lang.String)
-  And The user clicks on submit add customer button                                 # stepDefinition.IntegrationTestSteps.clickSubmitAddCustomerButton()
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-  And The user gets the alert banner and clicks ok                                  # stepDefinition.IntegrationTestSteps.clickOkAlert()
-  And The user clicks on 'Open Account' button                                      # stepDefinition.IntegrationTestSteps.clickOpenAccount()
-  And The user clicks on 'Customer Name' dropdown                                   # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-  And The user clicks on name                                                       # stepDefinition.IntegrationTestSteps.clickCustomerName()
-  And The user clicks on 'Currency' dropdown                                        # stepDefinition.IntegrationTestSteps.clickCurrencyDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-  And The user selects the currency "Dollar"                                        # stepDefinition.OpenAccountSteps.getselectCurrency(java.lang.String)
-  And The user clicks on 'Process' button                                           # stepDefinition.IntegrationTestSteps.clickProcessButton()
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-  And The user clicks on the Ok button from the alert                               # stepDefinition.IntegrationTestSteps.clickOkAlertButton()
-  And The user clicks on the 'Customers' button                                     # stepDefinition.IntegrationTestSteps.clickCustomerButton()
-  And The user searches name "Cosmin"                                               # stepDefinition.IntegrationTestSteps.searchCustomerName(java.lang.String)
-  Then The user checks if customer in list                                          # stepDefinition.IntegrationTestSteps.checkCustomerName()
-  And The user clicks on 'Home' button                                              # stepDefinition.IntegrationTestSteps.clickHomeButton()
-  And The user clicks on 'Customer Login' button                                    # stepDefinition.IntegrationTestSteps.clickCutomerLoginButton()
-  And The user selects the username                                                 # stepDefinition.IntegrationTestSteps.selectUserName()
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-  And The user clicks the Login button                                              # stepDefinition.IntegrationTestSteps.clickLoginButton()
-  Then The user gets the message Welcome <name>                                     # stepDefinition.IntegrationTestSteps.getWelcomeMessage()
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-Driver in getDriver: ChromeDriver: chrome on windows (4ce39594e89b690b2d6a6670b2da7c9e)
-  And The user checks their current balance                                         # stepDefinition.CustomerTransactionsSteps.checkCurrentBalance()
-  And The user clicks on Deposit tab                                                # stepDefinition.CustomerTransactionsSteps.userClicksDepositTab()
-  And The user enters the amount of money for deposit "15"                          # stepDefinition.CustomerTransactionsSteps.enterDepositAmount(java.lang.String)
-  And The user clicks on Deposit button                                             # stepDefinition.CustomerTransactionsSteps.userClickDepositButton()
-  Then The deposit success message is displayed                                     # stepDefinition.CustomerTransactionsSteps.verifyDepositSuccessMessage()
-  And The user's balance after deposit is updated correctly                         # stepDefinition.CustomerTransactionsSteps.verifyUpdatedBalanceAfterDeposit()
-  When The user clicks on the Transactions tab                                      # stepDefinition.CustomerTransactionsSteps.userClickTransactionsTab()
-  And The user clicks on the Date-time sorting button                               # stepDefinition.CustomerTransactionsSteps.userClickDateTimeSortingButton()
-  Then The user checks if the first amount is the same as the one typed before "15" # stepDefinition.CustomerTransactionsSteps.verifyAmount(java.lang.String)
-  And The user checks if the Transaction type is correct "Credit"                   # stepDefinition.CustomerTransactionsSteps.verifyTransactionType(java.lang.String)
-  When The user clicks on the 'Back' button                                         # stepDefinition.CustomerTransactionsSteps.userClicksBackButton()
-  And The user checks their current balance                                         # stepDefinition.CustomerTransactionsSteps.checkCurrentBalance()
-  When The user clicks on Withdraw tab                                              # stepDefinition.CustomerTransactionsSteps.userClicksWithdrawTab()
-  And The user enters the amount of money for withdraw "4"                          # stepDefinition.CustomerTransactionsSteps.enterWithdrawAmount(java.lang.String)
-  And The user clicks on Withdraw button                                            # stepDefinition.CustomerTransactionsSteps.userClickWithdrawButton()
-  Then The withdraw success message is displayed                                    # stepDefinition.CustomerTransactionsSteps.verifyWithdrawSuccessMessage()
-  And The user's balance after withdraw is updated correctly                        # stepDefinition.CustomerTransactionsSteps.verifyUpdatedBalanceAfterWithdraw()
-  When The user clicks on the Transactions tab                                      # stepDefinition.CustomerTransactionsSteps.userClickTransactionsTab()
-  And The user clicks on the Date-time sorting button                               # stepDefinition.CustomerTransactionsSteps.userClickDateTimeSortingButton()
-  Then The user checks if the first amount is the same as the one typed before "4"  # stepDefinition.CustomerTransactionsSteps.verifyAmount(java.lang.String)
-  And The user checks if the Transaction type is correct "Debit"                    # stepDefinition.CustomerTransactionsSteps.verifyTransactionType(java.lang.String)
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:49:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="Delete an existing customer" classname="Delete a customer" time="6.258">
-    <system-out><![CDATA[
-Scenario: Delete an existing customer                          # src/test/resources/features/ManagerCustomers.feature:8
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-  Given The user accesses the main page                        # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button      # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on the 'Customers' button                # stepDefinition.IntegrationTestSteps.clickCustomerButton()
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-  And The user uses the search bar to find the name "Hermoine" # stepDefinition.OpenAccountSteps.searchFirstName(java.lang.String)
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-  When The user clicks on the delete button                    # stepDefinition.ManagerCustomersSteps.clickDeleteButton()
-Driver in getDriver: ChromeDriver: chrome on windows (82497e49f741b77ca97426ff59922cc9)
-  Then The user cannot see the deleted name on the page        # stepDefinition.ManagerCustomersSteps.checkPageForName()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:50:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user adds a new  account for existing customer #1" classname="Create new account" time="8.05">
-    <system-out><![CDATA[
-Scenario Outline: The user adds a new  account for existing customer # src/test/resources/features/OpenAccount.feature:21
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-  Given The user accesses the main page                              # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button            # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on 'Open Account' button                       # stepDefinition.IntegrationTestSteps.clickOpenAccount()
-  And The user clicks on 'Customer Name' dropdown                    # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-  And The user selects first customer in list                        # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-  And The user clicks on 'Currency' dropdown                         # stepDefinition.IntegrationTestSteps.clickCurrencyDropdown()
-  When The user selects the currency 'Dollar'                        # stepDefinition.OpenAccountSteps.getselectCurrency(java.lang.String)
-  And The user clicks on 'Process' button                            # stepDefinition.IntegrationTestSteps.clickProcessButton()
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-  When The user takes the account number from the pop-up banner      # stepDefinition.OpenAccountSteps.getAccountNumber()
-Driver in getDriver: ChromeDriver: chrome on windows (a39639488d49daff73a984ff18035565)
-  And The user clicks on the Ok button from the alert                # stepDefinition.IntegrationTestSteps.clickOkAlertButton()
-  And The user clicks on the 'Customers' button                      # stepDefinition.IntegrationTestSteps.clickCustomerButton()
-  When The user searches name "Hermoine"                             # stepDefinition.IntegrationTestSteps.searchCustomerName(java.lang.String)
-  Then The new account created is in Account Numbers                 # stepDefinition.OpenAccountSteps.searchAccountNumber()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:50:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user adds a new  account for existing customer #2" classname="Create new account" time="7.39">
-    <system-out><![CDATA[
-Scenario Outline: The user adds a new  account for existing customer # src/test/resources/features/OpenAccount.feature:22
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-  Given The user accesses the main page                              # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button            # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on 'Open Account' button                       # stepDefinition.IntegrationTestSteps.clickOpenAccount()
-  And The user clicks on 'Customer Name' dropdown                    # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-  And The user selects first customer in list                        # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-  And The user clicks on 'Currency' dropdown                         # stepDefinition.IntegrationTestSteps.clickCurrencyDropdown()
-  When The user selects the currency 'Pound'                         # stepDefinition.OpenAccountSteps.getselectCurrency(java.lang.String)
-  And The user clicks on 'Process' button                            # stepDefinition.IntegrationTestSteps.clickProcessButton()
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-  When The user takes the account number from the pop-up banner      # stepDefinition.OpenAccountSteps.getAccountNumber()
-Driver in getDriver: ChromeDriver: chrome on windows (5340cdd75ca8fe1d492db74cdba16b45)
-  And The user clicks on the Ok button from the alert                # stepDefinition.IntegrationTestSteps.clickOkAlertButton()
-  And The user clicks on the 'Customers' button                      # stepDefinition.IntegrationTestSteps.clickCustomerButton()
-  When The user searches name "Hermoine"                             # stepDefinition.IntegrationTestSteps.searchCustomerName(java.lang.String)
-  Then The new account created is in Account Numbers                 # stepDefinition.OpenAccountSteps.searchAccountNumber()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user adds a new  account for existing customer #3" classname="Create new account" time="6.915">
-    <system-out><![CDATA[
-Scenario Outline: The user adds a new  account for existing customer # src/test/resources/features/OpenAccount.feature:23
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-  Given The user accesses the main page                              # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button            # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on 'Open Account' button                       # stepDefinition.IntegrationTestSteps.clickOpenAccount()
-  And The user clicks on 'Customer Name' dropdown                    # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-  And The user selects first customer in list                        # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-  And The user clicks on 'Currency' dropdown                         # stepDefinition.IntegrationTestSteps.clickCurrencyDropdown()
-  When The user selects the currency 'Rupee'                         # stepDefinition.OpenAccountSteps.getselectCurrency(java.lang.String)
-  And The user clicks on 'Process' button                            # stepDefinition.IntegrationTestSteps.clickProcessButton()
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-  When The user takes the account number from the pop-up banner      # stepDefinition.OpenAccountSteps.getAccountNumber()
-Driver in getDriver: ChromeDriver: chrome on windows (2c16a9c523f9fa3ebb9fa36c180b79f0)
-  And The user clicks on the Ok button from the alert                # stepDefinition.IntegrationTestSteps.clickOkAlertButton()
-  And The user clicks on the 'Customers' button                      # stepDefinition.IntegrationTestSteps.clickCustomerButton()
-  When The user searches name "Hermoine"                             # stepDefinition.IntegrationTestSteps.searchCustomerName(java.lang.String)
-  Then The new account created is in Account Numbers                 # stepDefinition.OpenAccountSteps.searchAccountNumber()
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:50:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user adds a new account without selecting a customer name" classname="Create new account" time="6.613">
-    <system-out><![CDATA[
-Scenario Outline: The user adds a new account without selecting a customer name             # src/test/resources/features/OpenAccount.feature:33
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-  Given The user accesses the main page                                                     # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button                                   # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on 'Open Account' button                                              # stepDefinition.IntegrationTestSteps.clickOpenAccount()
-  And The user clicks on 'Customer Name' dropdown                                           # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-  And The user clicks on 'Currency' dropdown                                                # stepDefinition.IntegrationTestSteps.clickCurrencyDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-Driver in getDriver: ChromeDriver: chrome on windows (20bc5abd19dea249e0fb070f2a89aa85)
-  When The user selects the currency 'Dollar'                                               # stepDefinition.OpenAccountSteps.getselectCurrency(java.lang.String)
-  And The user clicks on 'Process' button                                                   # stepDefinition.IntegrationTestSteps.clickProcessButton()
-  Then The user gets an alert on 'Customer Name' field "Please select an item in the list." # stepDefinition.OpenAccountSteps.getAlertCustomerName(java.lang.String)
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:50:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
-]]></system-err>
-  </testcase>
-  <testcase name="The user adds a new account without selecting a currency" classname="Create new account" time="6.711">
-    <system-out><![CDATA[
-Scenario Outline: The user adds a new account without selecting a currency             # src/test/resources/features/OpenAccount.feature:42
-Initializing WebDriver...
-Driver in Before: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-  Given The user accesses the main page                                                # stepDefinition.IntegrationTestSteps.goTo()
-  When The user clicks on the 'Bank Manager Login' button                              # stepDefinition.IntegrationTestSteps.clickBankManagerLoginButton()
-  And The user clicks on 'Open Account' button                                         # stepDefinition.IntegrationTestSteps.clickOpenAccount()
-  And The user clicks on 'Customer Name' dropdown                                      # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-  And The user clicks on 'Customer Name' dropdown                                      # stepDefinition.IntegrationTestSteps.clickCustomerNameDropdown()
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-Driver in getDriver: ChromeDriver: chrome on windows (c1013dcc47a69b529812f308277b8ed3)
-  And The user selects first customer in list                                          # stepDefinition.OpenAccountSteps.selectFirstCustomerInList()
-  And The user clicks on 'Process' button                                              # stepDefinition.IntegrationTestSteps.clickProcessButton()
-  Then The user gets an alert on 'Currency' field "Please select an item in the list." # stepDefinition.OpenAccountSteps.getAlertCurrency(java.lang.String)
-Closing WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Apr 11, 2025 2:50:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+    <system-err><![CDATA[Apr 15, 2025 12:25:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
 </testsuite>
