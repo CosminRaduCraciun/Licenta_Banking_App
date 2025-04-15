@@ -31,7 +31,15 @@ jobs:
         run: |
           Xvfb :99 -ac &
           echo "DISPLAY=:99" >> $GITHUB_ENV
+      
 
       - name: Build and Test with Maven
         working-directory: BankingApp
         run: mvn clean install
+
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: surefire-reports
+          path: BankingApp/target/surefire-reports
