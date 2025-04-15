@@ -20,14 +20,18 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: Build with Maven
+      - name: Install Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget gnupg unzip xvfb
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt install -y ./google-chrome-stable_current_amd64.deb
+
+      - name: Start Xvfb
+        run: |
+          Xvfb :99 -ac &
+          echo "DISPLAY=:99" >> $GITHUB_ENV
+
+      - name: Build and Test with Maven
         working-directory: BankingApp
         run: mvn clean install
-#The below line was set to test if the issue still occurs with the browser chromedriver
-      - name: Setup Fluxbox and Xvfb
-        if: inputs.os == 'ubuntu' && inputs.browser != ''
-        run: |
-          sudo apt-get -y install fluxbox
-          Xvfb :99 &
-          fluxbox -display :99 &
-          echo "DISPLAY=:99" >> "$GITHUB_ENV"
