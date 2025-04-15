@@ -37,9 +37,13 @@ jobs:
         working-directory: BankingApp
         run: mvn clean install
 
-      - name: Upload test report
+      - name: Generate HTML Report
+        run: mvn surefire-report:report
+        working-directory: BankingApp
+
+      - name: Upload HTML Test Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: surefire-reports
-          path: BankingApp/target/surefire-reports
+          name: html-test-report
+          path: BankingApp/target/site/surefire-report.html
