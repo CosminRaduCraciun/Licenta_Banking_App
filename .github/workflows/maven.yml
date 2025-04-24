@@ -47,4 +47,11 @@ jobs:
         with:
           name: html-test-report
           path: BankingApp/target/site/surefire-report.html
+      - name: Upload Cucumber HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: BankingApp/target/cucumber-html-reports
+
       
