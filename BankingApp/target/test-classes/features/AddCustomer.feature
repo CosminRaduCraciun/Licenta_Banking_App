@@ -4,7 +4,7 @@ Feature: Add a new customer
     Given The user accesses the main page
     When The user clicks on the 'Bank Manager Login' button
     And The user clicks on the 'Add Customer' button
-
+  @test1
   Scenario Outline: The user adds a new customer without filling First Name field
     And The user writes 'first name' "<fistname>"
     And The user writes 'last name' "<lastname>"
@@ -14,7 +14,7 @@ Feature: Add a new customer
     Examples:
       | fistname | lastname | postcode | alert                       |
       |          | Craciun  | E23564   | Please fill out this field. |
-
+  @test2
   Scenario Outline: The user adds a new customer without filling Last Name field
     And The user writes 'first name' "<fistname>"
     And The user writes 'last name' "<lastname>"
