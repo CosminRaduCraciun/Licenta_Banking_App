@@ -1,5 +1,6 @@
 pages\CustomerTransactionsPage.class
 pages\ManagerTabPage.class
+reports\GenerateCucumberReport.class
 stepDefinition\IntegrationTestSteps.class
 pages\HomePage.class
 stepDefinition\OpenAccountSteps.class
