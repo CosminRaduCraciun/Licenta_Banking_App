@@ -47,13 +47,11 @@ jobs:
         with:
           name: html-test-report
           path: BankingApp/target/site/surefire-report.html
-      - name: Generate Allure Report
-        run: mvn allure:report
-        working-directory: BankingApp
-
-      - name: Upload Allure Report
+      - name: Upload Cucumber HTML Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-report
-          path: BankingApp/target/site/allure-maven-plugin
+          name: cucumber-html-report
+          path: BankingApp/target/cucumber-html-reports
+
+      
