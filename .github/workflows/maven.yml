@@ -1,6 +1,8 @@
 name: Maven Build
 
 on:
+  schedule:
+    - cron: '0 19 * * *'  # Every day at 8:00 AM UTC
   push:
     branches: [ main ]
   pull_request:
