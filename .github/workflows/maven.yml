@@ -61,12 +61,16 @@ jobs:
         working-directory: BankingApp
         run: mvn clean install
 
+      - name: Generate Styled Cucumber Report
+        working-directory: BankingApp
+        run: mvn exec:java -Dexec.mainClass="reports.GenerateCucumberReport"
 
       - name: Upload Cucumber HTML Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cucumber-html-report
-          path: BankingApp/target/cucumber-html-reports
+          path: BankingApp/target/cucumber-html-reports/
+
 
       
