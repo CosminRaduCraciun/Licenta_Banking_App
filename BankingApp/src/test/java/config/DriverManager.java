@@ -28,9 +28,11 @@ public class DriverManager {
             case "edge":
                 WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.addArguments("--headless=new"); // 'new' is required for Chromium 109+
-                edgeOptions.addArguments("--disable-gpu");
-                edgeOptions.addArguments("--window-size=1920,1080");
+                if (System.getenv("CI") != null) {
+                    edgeOptions.addArguments("--headless=new");
+                    edgeOptions.addArguments("--disable-gpu");
+                    edgeOptions.addArguments("--window-size=1920,1080");
+                }
                 driver = new org.openqa.selenium.edge.EdgeDriver(edgeOptions);
                 break;
             case "chrome":
