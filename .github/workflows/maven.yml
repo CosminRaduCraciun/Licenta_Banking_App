@@ -29,14 +29,26 @@ jobs:
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
-      - name: Install Microsoft Edge
+      - name: Install Microsoft Edge and EdgeDriver
         run: |
-            sudo apt-get update
-            sudo apt-get install -y wget gnupg software-properties-common
-            wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-            sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main"
-            sudo apt-get update
-            sudo apt-get install -y microsoft-edge-stable
+          sudo apt-get update
+          sudo apt-get install -y wget gnupg software-properties-common
+          wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+          sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main"
+          sudo apt-get update
+          sudo apt-get install -y microsoft-edge-stable
+
+          # Get version of installed Edge
+          EDGE_VERSION=$(microsoft-edge --version | grep -oP '[0-9.]+' | head -1)
+          # Trim to major version (e.g., 136)
+          EDGE_MAJOR=$(echo $EDGE_VERSION | cut -d '.' -f 1)
+
+          # Download the matching EdgeDriver
+          wget "https://msedgedriver.azureedge.net/${EDGE_VERSION}/edgedriver_linux64.zip"
+          unzip edgedriver_linux64.zip
+          sudo mv msedgedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/msedgedriver
+
 
 
       - name: Start Xvfb
