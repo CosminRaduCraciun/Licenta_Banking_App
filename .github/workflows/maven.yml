@@ -63,7 +63,7 @@ jobs:
 
       - name: Generate Styled Cucumber Report
         working-directory: BankingApp
-        run: mvn exec:java -Dexec.mainClass="reports.GenerateCucumberReport"
+        run: mvn exec:java -Dexec.mainClass="reports.GenerateCucumberReport" -Dexec.classpathScope=test
 
       - name: Upload Cucumber HTML Report
         if: always()
