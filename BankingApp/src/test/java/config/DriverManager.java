@@ -5,6 +5,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.PropertyReader;
 
@@ -25,7 +27,12 @@ public class DriverManager {
         switch (browser.toLowerCase()) {
             case "edge":
                 WebDriverManager.edgedriver().setup();
-                driver = new org.openqa.selenium.edge.EdgeDriver();
+
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--headless=new"); // 'new' is required for Chromium 109+
+                edgeOptions.addArguments("--disable-gpu");
+                edgeOptions.addArguments("--window-size=1920,1080");
+                driver = new org.openqa.selenium.edge.EdgeDriver(edgeOptions);
                 break;
             case "chrome":
             default:
