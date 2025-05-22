@@ -61,9 +61,6 @@ jobs:
         working-directory: BankingApp
         run: mvn clean install
 
-      - name: Generate HTML Report
-        run: mvn surefire-report:report
-        working-directory: BankingApp
 
       - name: Upload HTML Test Report
         if: always()
