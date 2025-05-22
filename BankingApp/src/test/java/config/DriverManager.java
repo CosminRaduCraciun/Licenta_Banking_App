@@ -27,7 +27,6 @@ public class DriverManager {
         switch (browser.toLowerCase()) {
             case "edge":
                 WebDriverManager.edgedriver().setup();
-
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--headless=new"); // 'new' is required for Chromium 109+
                 edgeOptions.addArguments("--disable-gpu");

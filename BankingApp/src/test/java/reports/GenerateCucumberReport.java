@@ -10,7 +10,7 @@ import java.util.List;
 public class GenerateCucumberReport {
     public static void main(String[] args) {
         File reportOutputDirectory = new File("target/cucumber-html-reports");
-        List<String> jsonFiles = Collections.singletonList("reports/cucumber.json");
+        List<String> jsonFiles = Collections.singletonList("target/cucumber.json");
 
         Configuration config = new Configuration(reportOutputDirectory, "My Automation Project");
         config.setBuildNumber("1");
