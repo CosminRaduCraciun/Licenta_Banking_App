@@ -2,18 +2,22 @@ package config;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import org.openqa.selenium.WebDriver;
+import utils.PropertyReader;
 
 public class Hooks {
+    public static WebDriver driver;
 
-    @Before(order = 0)
-    public void setup() {
-        System.out.println("Initializing WebDriver...");
+    @Before
+    public void setUp() {
         DriverManager.createDriver();
+        driver = DriverManager.getDriver();
     }
 
-    @After(order = 0)
+    @After
     public void tearDown() {
-        System.out.println("Closing WebDriver...");
         DriverManager.destroyDriver();
     }
+
 }
+
