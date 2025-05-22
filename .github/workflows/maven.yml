@@ -62,12 +62,6 @@ jobs:
         run: mvn clean install
 
 
-      - name: Upload HTML Test Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: html-test-report
-          path: BankingApp/target/site/surefire-report.html
       - name: Upload Cucumber HTML Report
         if: always()
         uses: actions/upload-artifact@v4
