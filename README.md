@@ -83,9 +83,8 @@ Deși aplicația demo nu folosește o bază de date reală, structura logică si
 
 ## Contribuții și suport
 
-Acest proiect a fost dezvoltat ca lucrare de licență la [numele facultății/universității tale].
+Acest proiect a fost dezvoltat ca lucrare de licență la secția Informatică, Universitatea Politehnică Timișoara.
 
-Dacă ai întrebări, poți deschide un issue sau mă poți contacta la [adresa ta de email, dacă dorești].
 
 ---
 
