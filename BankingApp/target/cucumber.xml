@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="21.202" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="Add a new customer" name="The user adds a new customer without filling First Name field - Example #1.1" time="12.419">
+<testsuite name="Cucumber" time="138.499" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Add a new customer" name="The user adds a new customer without filling First Name field - Example #1.1" time="48.479">
 <system-out><![CDATA[
 Given The user accesses the main page.......................................passed
 When The user clicks on the 'Bank Manager Login' button.....................passed
@@ -12,7 +12,7 @@ And The user clicks on submit add customer button...........................pass
 Then The user gets the alert banner in field First Name "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Add a new customer" name="The user adds a new customer without filling Last Name field - Example #1.1" time="8.431">
+<testcase classname="Add a new customer" name="The user adds a new customer without filling Last Name field - Example #1.1" time="22.571">
 <system-out><![CDATA[
 Given The user accesses the main page.......................................passed
 When The user clicks on the 'Bank Manager Login' button.....................passed
@@ -22,6 +22,96 @@ And The user writes 'last name' ""..........................................pass
 And The user writes 'post code' "E23564"....................................passed
 And The user clicks on submit add customer button...........................passed
 Then The user gets the alert banner in field Last Name "Please fill out this field.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new customer and open new accounts" name="The user can successfully create new customer - Example #1.1" time="31.901">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "Cosmin"...................................passed
+And The user writes 'last name' "Craciun"...................................passed
+And The user writes 'post code' "E452346"...................................passed
+And The user clicks on submit add customer button...........................passed
+And The user gets the alert banner and clicks ok............................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user clicks on name.................................................passed
+And The user clicks on 'Currency' dropdown..................................passed
+And The user selects the currency "Dollar"..................................passed
+And The user clicks on 'Process' button.....................................passed
+And The user clicks on the Ok button from the alert.........................passed
+And The user clicks on the 'Customers' button...............................passed
+And The user searches name "Cosmin".........................................passed
+Then The user checks if customer in list....................................passed
+And The user clicks on 'Home' button........................................passed
+And The user clicks on 'Customer Login' button..............................passed
+And The user selects the username...........................................passed
+And The user clicks the Login button........................................passed
+Then The user gets the message Welcome <name>...............................passed
+And The user checks their current balance...................................passed
+And The user clicks on Deposit tab..........................................passed
+And The user enters the amount of money for deposit "15"....................passed
+And The user clicks on Deposit button.......................................passed
+Then The deposit success message is displayed...............................passed
+And The user's balance after deposit is updated correctly...................passed
+When The user clicks on the Transactions tab................................passed
+And The user clicks on the Date-time sorting button.........................passed
+Then The user checks if the first amount is the same as the one typed before "15".passed
+And The user checks if the Transaction type is correct "Credit".............passed
+When The user clicks on the 'Back' button...................................passed
+When The user clicks on Withdraw tab........................................passed
+And The user enters the amount of money for withdraw "4"....................passed
+And The user clicks on Withdraw button......................................passed
+Then The withdraw success message is displayed..............................passed
+And The user's balance after withdraw is updated correctly..................passed
+Then The user checks if the first amount is the same as the one typed before "4".passed
+And The user checks if the Transaction type is correct "Debit"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new customer and open new accounts" name="The user can successfully create new customer - Example #1.2" time="34.527">
+<system-out><![CDATA[
+Given The user accesses the main page.......................................passed
+When The user clicks on the 'Bank Manager Login' button.....................passed
+And The user clicks on the 'Add Customer' button............................passed
+And The user writes 'first name' "Cosmin"...................................passed
+And The user writes 'last name' "Craciun"...................................passed
+And The user writes 'post code' "E452346"...................................passed
+And The user clicks on submit add customer button...........................passed
+And The user gets the alert banner and clicks ok............................passed
+And The user clicks on 'Open Account' button................................passed
+And The user clicks on 'Customer Name' dropdown.............................passed
+And The user clicks on name.................................................passed
+And The user clicks on 'Currency' dropdown..................................passed
+And The user selects the currency "Pound"...................................passed
+And The user clicks on 'Process' button.....................................passed
+And The user clicks on the Ok button from the alert.........................passed
+And The user clicks on the 'Customers' button...............................passed
+And The user searches name "Cosmin".........................................passed
+Then The user checks if customer in list....................................passed
+And The user clicks on 'Home' button........................................passed
+And The user clicks on 'Customer Login' button..............................passed
+And The user selects the username...........................................passed
+And The user clicks the Login button........................................passed
+Then The user gets the message Welcome <name>...............................passed
+And The user checks their current balance...................................passed
+And The user clicks on Deposit tab..........................................passed
+And The user enters the amount of money for deposit "15"....................passed
+And The user clicks on Deposit button.......................................passed
+Then The deposit success message is displayed...............................passed
+And The user's balance after deposit is updated correctly...................passed
+When The user clicks on the Transactions tab................................passed
+And The user clicks on the Date-time sorting button.........................passed
+Then The user checks if the first amount is the same as the one typed before "15".passed
+And The user checks if the Transaction type is correct "Credit".............passed
+When The user clicks on the 'Back' button...................................passed
+When The user clicks on Withdraw tab........................................passed
+And The user enters the amount of money for withdraw "4"....................passed
+And The user clicks on Withdraw button......................................passed
+Then The withdraw success message is displayed..............................passed
+And The user's balance after withdraw is updated correctly..................passed
+Then The user checks if the first amount is the same as the one typed before "4".passed
+And The user checks if the Transaction type is correct "Debit"..............passed
 ]]></system-out>
 </testcase>
 </testsuite>

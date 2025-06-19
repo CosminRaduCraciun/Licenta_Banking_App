@@ -17,6 +17,7 @@ public class GenerateCucumberReport {
         config.addClassifications("Platform", System.getProperty("os.name"));
         config.addClassifications("Browser", "Chrome");
         config.addClassifications("Branch", "main");
+        config.addClassifications("Date of Run", "2025-04-15 11:25:07");
 
         ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, config);
         reportBuilder.generateReports();

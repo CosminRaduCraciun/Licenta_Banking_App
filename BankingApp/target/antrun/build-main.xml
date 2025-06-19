@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <tstamp>
+      <format property="timestamp" pattern="yyyyMMdd-HHmmss" />
+    </tstamp>
+    <mkdir dir="archived-reports" />
+    <zip destfile="archived-reports/report-${timestamp}.zip">
+      <fileset dir="target\cucumber-html-reports\cucumber-html-reports" />
+    </zip>
+  </target>
+</project>
