@@ -58,8 +58,9 @@ Scopul proiectului este de a demonstra cum se poate valida, automatizat, funcți
    ```
 
 5. **Vizualizează rapoartele:**
+   ```bash
    - Rapoartele Cucumber HTML se vor găsi în `target/cucumber-html-reports/`.
-
+   ```
 ---
 
 ## Exemple de scenarii acoperite
