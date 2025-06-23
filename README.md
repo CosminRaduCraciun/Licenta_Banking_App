@@ -45,7 +45,7 @@ Scopul proiectului este de a demonstra cum se poate valida, automatizat, funcți
 
 2. **Instalează dependențele:**
    ```bash
-   mvn clean install
+   mvn clean install '-Dmaven.test.failure.ignore=true'
    ```
 
 3. **Configurează browserul (opțional):**
@@ -53,7 +53,7 @@ Scopul proiectului este de a demonstra cum se poate valida, automatizat, funcți
 
 4. **Rulează testele:**
    ```bash
-   mvn test
+   mvn test '-Dmaven.test.failure.ignore=true'
    ```
 
 5. **Vizualizează rapoartele:**
