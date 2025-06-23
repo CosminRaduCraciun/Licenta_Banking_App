@@ -10,6 +10,7 @@ pages\HomePage.class
 stepDefinition\OpenAccountSteps.class
 runners\TestRunner.class
 stepDefinition\ManagerCustomersSteps.class
+reports\ConfigReader.class
 pages\ManagerCustomersPage.class
 pages\OpenAccountPage.class
 config\Hooks.class
