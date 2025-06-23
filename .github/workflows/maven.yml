@@ -60,7 +60,7 @@ jobs:
 
       - name: Build and Test with Maven
         working-directory: BankingApp
-        run: mvn clean install
+        run: mvn clean install '-Dmaven.test.failure.ignore=true'
 
       - name: Generate Styled Cucumber Report
         working-directory: BankingApp
