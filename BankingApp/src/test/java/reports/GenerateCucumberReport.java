@@ -15,6 +15,7 @@ import java.util.List;
 
 public class GenerateCucumberReport {
     public static void main(String[] args) {
+        System.out.println("RUNNING CUCUMBER REPORT");
         File reportOutputDirectory = new File("target/cucumber-html-reports");
         List<String> jsonFiles = Collections.singletonList("target/cucumber.json");
         String dateOfRun = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));

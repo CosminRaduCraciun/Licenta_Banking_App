@@ -79,7 +79,7 @@
                 <executions>
                     <execution>
                         <id>run-cucumber-report</id>
-                        <phase>verify</phase>
+                        <phase>post-integration-test</phase>
                         <goals>
                             <goal>java</goal>
                         </goals>
@@ -97,7 +97,7 @@
                 <executions>
                     <execution>
                         <id>archive-reports</id>
-                        <phase>verify</phase>
+                        <phase>post-integration-test</phase>
                         <configuration>
                             <target>
                                 <tstamp>

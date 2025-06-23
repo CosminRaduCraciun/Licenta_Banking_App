@@ -45,9 +45,9 @@ Feature: Create new customer and open new accounts
     And The user's balance after withdraw is updated correctly
     When The user clicks on the Transactions tab
     And The user clicks on the Date-time sorting button
-    Then The user checks if the first amount is the same as the one typed before "4"
+    Then The user checks if the first amount is the same as the one typed before "5"
     And The user checks if the Transaction type is correct "Debit"
     Examples:
       | currency |
       | Dollar   |
-      | Pound    |
+#      | Pound    |

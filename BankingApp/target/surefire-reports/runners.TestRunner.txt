@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 167.9 s -- in runners.TestRunner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.23 s <<< FAILURE! -- in runners.TestRunner
+Create new customer and open new accounts.The user can successfully create new customer -- Time elapsed: 16.94 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <4>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at stepDefinition.CustomerTransactionsSteps.verifyAmount(CustomerTransactionsSteps.java:129)
+	at ✽.The user checks if the first amount is the same as the one typed before "5"(file:///C:/Users/Radu.Craciun/IdeaProjects/Licenta_Banking_App/BankingApp/src/test/resources/features/IntegrationTest.feature:48)
+
