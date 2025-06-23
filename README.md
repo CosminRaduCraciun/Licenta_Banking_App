@@ -49,8 +49,9 @@ Scopul proiectului este de a demonstra cum se poate valida, automatizat, funcți
    ```
 
 3. **Configurează browserul (opțional):**
+   ```bash
    - Modifică fișierul `src/test/resources/config.properties` pentru a alege browserul (`chrome` sau `edge`).
-
+   ```
 4. **Rulează testele:**
    ```bash
    mvn test '-Dmaven.test.failure.ignore=true'
