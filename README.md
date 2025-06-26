@@ -1,7 +1,13 @@
 # Licenta_Banking_App
 
-Proiect de licență: Automatizare BDD pentru testarea unei aplicații bancare
+Proiect de licență: 
 
+PROIECTAREA ȘI IMPLEMENTAREA UNEI SOLUȚII SOFTWARE PENTRU TESTAREA AUTOMATĂ A APLICAȚIILOR BANCARE
+---
+
+Adresa repository-ului: 
+
+https://github.com/CosminRaduCraciun/Licenta_Banking_App
 ---
 
 ## Descriere generală
@@ -35,7 +41,7 @@ Scopul proiectului este de a demonstra cum se poate valida, automatizat, funcți
 
 ---
 
-## Cum rulezi testele?
+## Pașii de compilare, instalare și lansare a aplicației
 
 1. **Clonează proiectul:**
    ```bash
