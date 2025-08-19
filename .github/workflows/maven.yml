@@ -2,8 +2,8 @@ name: Maven Build
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '10 21,9 * * *'  # Atentie!!! se foloseste standardul UTC si nu ora Romaniei 
+  #schedule:
+   # - cron: '10 21,9 * * *'  # Atentie!!! se foloseste standardul UTC si nu ora Romaniei 
   push:
     branches: [ main ]
   pull_request:
